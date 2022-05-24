@@ -1,5 +1,6 @@
 #!/bin/bash
 set -eux
+echo "Installing dependencies to use octoml cli"
 
 # Get setup dir
 SETUP_DIR=$(dirname $0)
